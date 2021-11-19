@@ -25,10 +25,10 @@ var cor = arrayCor[Math.floor(Math.random() * arrayCor.length)];
 var acerto = false;
 var tentativa = "";
 do {
-    tentativa = window.prompt("Estou pensando em alguma dessas cores:\n  > " + arrayCor.join('\n  > ') + "\n Qual delas é a que pensei?");
+    tentativa = window.prompt("\n  " + arrayCor.join('\n  ') + "\n Qual dessas cores eu pensei?");
     if(tentativa.toLowerCase() == cor.toLowerCase()){
         acerto = true;
-        alert("Parabéns , você acertou a cor! :D");
+        alert("Você acertou a cor");
         document.body.style.backgroundColor = tentativa;
     }
     else if(tentativa == ""){
