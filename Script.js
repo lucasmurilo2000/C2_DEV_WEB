@@ -36,7 +36,7 @@ do {
     }
     else {
         alert(
-            "Esta não é a cor correta!\n\nDica: A sua cor está alfabeticamente"
+            "Esta não é a cor correta!\n\nDica:  A sua cor está alfabeticamente"
             + (tentativa.toLowerCase() > cor.toLowerCase() ? " DEPOIS " : " ANTES ")
             + "da que pensei. \nTente novamente!");
     }
