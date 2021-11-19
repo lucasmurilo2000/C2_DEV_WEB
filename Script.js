@@ -25,7 +25,7 @@ var cor = arrayCor[Math.floor(Math.random() * arrayCor.length)];
 var acerto = false;
 var tentativa = "";
 do {
-    tentativa = window.prompt("\n Qual dessas cores estou pensando ?  " + arrayCor.join('\n  ') + "\n");
+    tentativa = window.prompt("\n Qual dessas cores estou pensando ?  " + arrayCor.join('\n') + "\n");
     if(tentativa.toLowerCase() == cor.toLowerCase()){
         acerto = true;
         alert("Você acertou a cor");
